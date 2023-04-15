@@ -1,0 +1,30 @@
+{
+  "name": "ethers-studio",
+  "version": "0.0.1-beta.0",
+  "description": "CLI tool for managing contracts and Ethers typings.",
+  "main": "index.js",
+  "bin": {
+    "esc": "./lib.esm/test.js"
+  },
+  "scripts": {
+    "auto-build": "npm run build -- -w",
+    "build": "tsc --project tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ethers",
+    "contracts",
+    "solidity"
+  ],
+  "author": "Richard Moore <me@ricmoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.3.0",
+    "solc": "^0.8.19",
+    "typescript": "^5.0.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}

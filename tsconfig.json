@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": false,
+    "lib": [
+      "dom",
+      "es2020",
+      "es5"
+    ],
+    "module": "es2020",
+    "moduleResolution": "node16",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "outDir": "./lib.esm",
+    "preserveSymlinks": true,
+    "preserveWatchOutput": true,
+    "pretty": false,
+    "rootDir": "./src.ts",
+    "strict": true,
+    "sourceMap": true,
+    "target": "es2022"
+  },
+  "exclude": [ ],
+  "include": [
+    "./src.ts/**/*.ts"
+  ],
+}
